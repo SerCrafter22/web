@@ -214,7 +214,7 @@
 	
 	.box1,
 	.box2,
-	.box3
+	.box3,
 	{
 		float: left;
 		margin-right: 20px;
@@ -235,6 +235,7 @@
 	{
 		width: 384px;
 	}
+
 	.boxA,
 	.boxB
 	{
@@ -306,15 +307,15 @@
 	#header-wrapper
 	{
 		position: relative;
-		padding: 1em 0em 7em 0em;
-		background: url(https://github.com/judygab/web-dev-projects/blob/main/personal-portfolio/src/assets/img/banner-bg.png?raw=true) no-repeat center;
+		padding: 5em 0em 7em 0em;
+		background: #111111 url(images/header-bg.jpg) no-repeat center;
 		background-size: cover;
 	}
 
 	#header
 	{
 		position: relative;
-		padding: 10em 0em;
+		padding: 5em 0em;
 	}
 
 /*********************************************************************************/
@@ -379,9 +380,9 @@
 	
 	#menu .active a
 	{
-		background: #ffffff;
+		background: #2651a8;
 		border-radius: 6px;
-		color: rgb(0, 0, 0);
+		color: rgba(255,255,255,1);
 	}
 	
 	#menu .icon
@@ -394,7 +395,7 @@
 
 	#banner
 	{
-		padding-top: 2em;
+		padding-top: 10em;
 		text-align: center;
 	}
 	
@@ -454,6 +455,7 @@
 	#footer
 	{
 	}
+
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
@@ -461,15 +463,8 @@
 	#copyright
 	{
 		overflow: hidden;
-		padding: 5em 5em;
+		padding: 5em 0em;
 		border-top: 1px solid rgba(0,0,0,0.08);
-	}
-  
-  #copyright .container
-	{
-		overflow: hidden;
-		margin: 0em auto;
-		width: 100%;
 	}
 	
 	#copyright p
@@ -485,12 +480,6 @@
 		color: rgba(255,255,255,0.6);
 	}
 
-/*********************************************************************************/
-/* Fondo Copyright                                                                      */
-/*********************************************************************************/
-	.fondo {
-		background-image: url("https://raw.githubusercontent.com/judygab/web-dev-projects/main/personal-portfolio/src/assets/img/footer-bg.png");
-	}
 
 /*********************************************************************************/
 /* Welcome                                                                       */
@@ -503,6 +492,13 @@
 		background: #2651a8;
 		background-size: cover;
 		text-align: center;
+	}
+	
+	#welcome .container
+	{
+		width: 1000px;
+		padding: 0px 100px;
+		color: rgba(255,255,255,0.8);
 	}
 	
 	#welcome a
@@ -971,23 +967,26 @@
 <div id="header-wrapper">
 	<div id="header" class="container">
 		<div id="logo">
-			<img src="https://github.com/SerCrafter22/elements/blob/main/logo.png?raw=true" width="100" height="101">
+			<h1><a href="#">Assembly</a></h1>
 		</div>
 		<div id="menu">
 			<ul>
-				<li class="active"><a href="#" accesskey="1" title="">Inicio</a></li>
-        	<li><a href="#" accesskey="2" title="">Podcast</a></li>
-				<li><a href="#" accesskey="3" title="">¿Quiénes somos?</a></li>
-				<li><a href="#" accesskey="4" title="">Proyectos</a></li>
-				<li><a href="#" accesskey="5" title="">5</a></li>
+				<li class="active"><a href="#" accesskey="1" title="">Homepage</a></li>
+				<li><a href="#" accesskey="2" title="">Our Clients</a></li>
+				<li><a href="#" accesskey="3" title="">About Us</a></li>
+				<li><a href="#" accesskey="4" title="">Careers</a></li>
+				<li><a href="#" accesskey="5" title="">Contact Us</a></li>
 			</ul>
 		</div>
 	</div>
 	<div id="banner" class="container">
 		<div class="title">
-			<h1>Moonlier Education</h1>
-			<span class="byline">Podcast sobre la Educación Española</span>
+			<h2>Consectetuer adipiscing elit</h2>
+			<span class="byline">Donec pulvinar ullamcorper metus</span>
 		</div>
+		<ul class="actions">
+			<li><a href="#" class="button">Pulvinar mollis</a></li>
+		</ul>
 	</div>
 </div>
 <div id="wrapper">
@@ -1022,10 +1021,8 @@
 		</ul>
 	</div>
 </div>
-<div class="fondo">
-	<div id="copyright" class="container">
-		<p>2023 <a href="https://youtube.com/@PodcastMoonlierEducation" rel="nofollow">&copy;Moonlier Education</a></p>
-	</div>
+<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
 </div>
 </body>
 </html>
